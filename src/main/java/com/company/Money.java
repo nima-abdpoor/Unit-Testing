@@ -10,7 +10,7 @@ public class Money {
         this.amount = amount;
         this.currency = currency;
     }
-
+    
     public String getCurrency() {
         return currency;
     }

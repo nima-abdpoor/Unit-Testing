@@ -1,5 +1,6 @@
-package com.company;
+package com.company.Test;
 
+import com.company.Mymath;
 import org.junit.Test;
 import org.junit.Assert.*;
 
