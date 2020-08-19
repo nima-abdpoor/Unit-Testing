@@ -1,16 +1,27 @@
 package com.company;
 
-import java.util.Objects;
 
 public class Money {
     private final int amount;
     private final String currency;
 
     public Money(int amount, String currency) {
+        checkLegality(amount,currency);
         this.amount = amount;
         this.currency = currency;
     }
-    
+
+    private void checkLegality(int amount, String currency) {
+        if (amount == 0){
+            throw new IllegalArgumentException("" +
+                    "illegal amount [ "+amount+" ]");
+        }
+        if (currency.isEmpty() || currency==null){
+            throw new IllegalArgumentException("" +
+                    "illegal currency [ "+currency+" ]");
+        }
+    }
+
     public String getCurrency() {
         return currency;
     }
