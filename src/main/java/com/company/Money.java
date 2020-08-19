@@ -12,11 +12,11 @@ public class Money {
     }
 
     private void checkLegality(int amount, String currency) {
-        if (amount == 0){
+        if (amount < 0){
             throw new IllegalArgumentException("" +
                     "illegal amount [ "+amount+" ]");
         }
-        if (currency.isEmpty() || currency==null){
+        if (currency==null || currency.isEmpty() ){
             throw new IllegalArgumentException("" +
                     "illegal currency [ "+currency+" ]");
         }
