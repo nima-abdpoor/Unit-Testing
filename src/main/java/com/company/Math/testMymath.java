@@ -1,8 +1,6 @@
-package com.company.Test;
+package com.company.Math;
 
-import com.company.Mymath;
 import org.junit.Test;
-import org.junit.Assert.*;
 
 import static org.junit.Assert.*;
 

@@ -1,12 +1,11 @@
 package com.company;
 
 
-import com.company.Test.testsort;
+import com.company.Math.testsort;
+import com.company.StringReverse.StringReverse;
 
 public class Main {
 
     public static void main(String[] args) {
-	testsort testsort=new testsort();
-	testsort.testsort();
     }
 }

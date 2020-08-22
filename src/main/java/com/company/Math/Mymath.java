@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Math;
 
 public class Mymath {
     private static final Mymath newmymath = new Mymath();

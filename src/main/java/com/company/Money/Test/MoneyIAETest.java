@@ -1,6 +1,6 @@
-package com.company.Test;
+package com.company.Money.Test;
 
-import com.company.Money;
+import com.company.Money.Money;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.junit.Test;

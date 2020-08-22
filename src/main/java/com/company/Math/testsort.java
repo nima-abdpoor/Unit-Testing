@@ -1,4 +1,4 @@
-package com.company.Test;
+package com.company.Math;
 
 import org.junit.Test;
 

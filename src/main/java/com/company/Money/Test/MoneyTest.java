@@ -1,6 +1,6 @@
-package com.company.Test;
+package com.company.Money.Test;
 
-import com.company.Money;
+import com.company.Money.Money;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
