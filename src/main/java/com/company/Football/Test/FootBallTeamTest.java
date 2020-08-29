@@ -7,10 +7,12 @@ import static org.junit.Assert.assertEquals;
 
 
 public class FootBallTeamTest {
+    private final static int THREE_GAMES_WON =3;
+
     @Test
     public void ConstructorShouldSetGameWon(){
-        FootBallTeam footBallTeam=new FootBallTeam(3);
-        assertEquals("3 games passed through constructor" +
-                "but "+footBallTeam.getGameWon()+" were returned.",3,footBallTeam.getGameWon());
+        FootBallTeam footBallTeam=new FootBallTeam(THREE_GAMES_WON);
+        assertEquals(THREE_GAMES_WON +" games passed through constructor" +
+                "but "+footBallTeam.getGameWon()+" were returned.",THREE_GAMES_WON,footBallTeam.getGameWon());
     }
 }
